@@ -24,196 +24,88 @@
     [self.window makeKeyAndVisible];
     
     
+    ////////////////////////////////////
+    // Start of Willson Ayotte's Story//
+    ////////////////////////////////////
     
-    
-    // casting of variable data types
-    
-    // Example of Casting
-//    int seven = 7;
-//    int two  = 2;
-//    
-//    float floatanswer = (float)seven / (float)two;
-//    
-//    int intanswer = seven / two;
-    
-    // Example of Casting
-    // C x (9/5) + 32 = F
-    // celcius 23.0 fahrenheit = 73.4
-//    float celcius = 23.0f;
-//    
-//    float result = celcius * ((float)9/5) + 32;
-//    
-//    int hello = 0;
-    // End of Casting
-    
-//    NSLog(@"result=%.1f", result);
-    
-    // Conditional Example
-    //  == equals
-    //  != not equal
-    //  < less than
-    //  <= less than or equal to
-    //  > greater than
-    //  >= greater than or equal to
-    //  && and
-    //  || or
-    
-    // if else statement
-//    int temp = 0;
-//    if (temp !=0){
-//        NSLog(@"true");
-//    }
-//    else{
-//        NSLog(@"false");
-//    }
-    // End of if else statement
-    
-    // Example of else if else statement.
-//    int numTires = 2;
-//    
-//    if (numTires >= 4) {
-//        NSLog(@"This is a car.");
-//    }
-//    else if (numTires <= 2) {
-//        NSLog(@"This is a motorcycle.");
-//    }
-//    else {
-//        NSLog(@"I have no idea what kind of vehicale this is.");
-//    }
-    // End else if else statement.
-    // End of Conditionals.
-    
-    // Example of For Loops - Single, Nested and Break
-    
-    // for loop layout
-    // for (init expression; loop_condition; loop expression)
-    // {
-    //      program execution
-    // }
-    
-    // for loop forward
-//    for (int x=0; x < 10; x++)
-//    {
-//        NSLog(@"hello: %d", x);
-//    }
-    // End for loop forward
-    
-    
-    // for loop reverse
-//    for (int y=10; y >= 0; y--)
-//    {
-//        NSLog(@"hello: %d", y);
-//    }
-    // End for loop reverse
-    
-    // for loops with break
-//    
-//    for (int count = 0; count < 10; count++)
-//    {
-//        NSLog(@"count=%d", count);
-//        if (count == 5)
-//        {
-//            break;
-//        }
-//    }
-    // End for loop with break
-    
-    // Example of While Loop
-    
-    // while loop
-//    int count = 0;
-//    
-//    while (count <= 100) {
-//        // print out the count value
-//        NSLog(@"count = %d\n", count);
-//        // increment count
-//        count ++;
-//    }
-    // End While Loop
-    
-    // Example of Do While Loop
-//    
-//    int num = 0;
-//    
-//    do {
-//        NSLog(@"count=%d", num);
-//        num++;
-//    } while (num > 10);
-    // End Do While Loop
-    
-    
-    
-    // Start of Willsons Code
-    // Example of a IF Else statement.
-//    int legs = 4;
-//    
-//    if (legs == 2){
-//        NSLog(@"You must be a human.");
-//    }
-//    else{
-//        NSLog(@"Your some type of animal.");
-//    }
-    // End of If Else statement.
-    
-    // Example of Else If
-//    int legs = 44;
-//    
-//    if (legs == 2){
-//        NSLog(@"You must be a human.");
-//    }
-//    else if (legs == 4){
-//        NSLog(@"You must be a dog.");
-//    }
-//    else {
-//        NSLog(@"You must be some other type of animal.");
-//    }
-    // End of Else If
-    
-    
-//    int people = 2;
-//    
-//    if (people == false){
-//        NSLog(@"There is no one around.");
-//    }
-//    else if (people == true){
-//        NSLog(@"There is someone here.");
-//    }
-//    else {
-//        NSLog(@"What are people?");
-//    }
-    
-    
-    int money = NO;
-    int payPhone = 1;
-    float pizzaLate = 30.50;
+    // Change between YES and NO
+    bool money = YES;
+    bool isPizzaLate = NO;
+    // Change to Any Number < or > 30
+    int traffic = 20;
+    // Dont Change Value
+    int insertCoin = 1;
+    float pizzaLate = 30;
     int pizzaNotLate = 30;
-    int traffic = YES;
-    
+
     NSLog(@"Hungry man picks up payphone to order pizza.");
-    
-    for (int coins = payPhone; payPhone < 4; payPhone++){
-        NSLog(@"%d", payPhone);
+    // For Loop
+    for (int coins = insertCoin; insertCoin < 4; insertCoin++){
+        NSLog(@"%d", insertCoin);
     }
+    // End For Loop
+    
+    // IF Else Statement
     if (money == YES) {
-        NSLog(@"%d coins were inserted into the payphone, and pizza man is called to deliver pizza",payPhone);
+        NSLog(@"%d coins were inserted into the payphone, and pizza man is called to deliver pizza.",insertCoin);
     }
     else
     {
         NSLog(@"Not enough coins to place call, hungry man is going to starve.");
     }
+    // End IF Else Statement
     
+    // Else If Else Statement
     if (money == YES) {
-        NSLog(@"Pizza man will be making a pizza.");
+        NSLog(@"Pizza man will be leaving to deliver pizza.");
     }
     else if (money == NO) {
         NSLog(@"Pizza man wont be making pizza for hungry man.");
+        return YES;
     }
     else {
         NSLog(@"Pizza man will make pizza for someone with money.");
     }
+    // End Else If Else Statement
     
+    // While Loop w/ Break
+    while (traffic > 30) {
+        // print out the count value
+        NSLog(@"Pizza man is waiting %d\n minuates in traffic.", traffic);
+        // increment count
+        traffic ++;
+        if (traffic > 31)
+        {
+            NSLog(@"Aww shit, I'm late!");
+            break;
+        }
+    }
+    // End While Loop w/ break
     
-
+    // If Statement
+    if (traffic < 30) {
+        NSLog(@"I'm making great time!");
+    }
+    // End If Statement
+    
+    // And Comparison w/ float answer
+    if (traffic > 30 && isPizzaLate == YES) {
+        float floatanswer = (float) traffic + (float) pizzaLate;
+        NSLog(@"The pizza took %.2f total minuates to deliver. The pizza is FREE!", floatanswer);
+    } else {
+        NSLog(@"Remember pizza dude, stay under %d minuates or its Free...", pizzaNotLate);
+    }
+    // End Comparison w/ float answer
+    
+    // OR comparison
+    if (isPizzaLate || money) {
+        NSLog(@"Damn, not even a tip...!");
+    }
+    // End OR comparison
+    
+    ////////////////////////////////
+    // End Willson Ayotte's Story //
+    ////////////////////////////////
     
    
     return YES;
