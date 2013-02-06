@@ -187,10 +187,10 @@
     ////////////////////////////////////
     
     // Change between YES and NO
-    int money = NO;
-    int isPizzaLate = YES;
+    bool money = YES;
+    bool isPizzaLate = NO;
     // Change to Any Number < or > 30
-    int traffic = 44;
+    int traffic = 20;
     // Dont Change Value
     int insertCoin = 1;
     float pizzaLate = 30;
@@ -256,8 +256,8 @@
     // End Comparison w/ float answer
     
     // OR comparison
-    if (pizzaLate == NO || money == NO) {
-        NSLog(@"Your NOT getting ANY pizza you bumb!");
+    if (isPizzaLate || money) {
+        NSLog(@"Damn, not even a tip...!");
     }
     // End OR comparison
 
