@@ -182,37 +182,84 @@
 //        NSLog(@"What are people?");
 //    }
     
+    ////////////////////////////////////
+    // Start of Willson Ayotte's Story//
+    ////////////////////////////////////
     
+    // Change between YES and NO
     int money = NO;
-    int payPhone = 1;
-    float pizzaLate = 30.50;
+    int isPizzaLate = YES;
+    // Change to Any Number < or > 30
+    int traffic = 44;
+    // Dont Change Value
+    int insertCoin = 1;
+    float pizzaLate = 30;
     int pizzaNotLate = 30;
-    int traffic = YES;
-    
+
     NSLog(@"Hungry man picks up payphone to order pizza.");
-    
-    for (int coins = payPhone; payPhone < 4; payPhone++){
-        NSLog(@"%d", payPhone);
+    // For Loop
+    for (int coins = insertCoin; insertCoin < 4; insertCoin++){
+        NSLog(@"%d", insertCoin);
     }
+    // End For Loop
+    
+    // IF Else Statement
     if (money == YES) {
-        NSLog(@"%d coins were inserted into the payphone, and pizza man is called to deliver pizza",payPhone);
+        NSLog(@"%d coins were inserted into the payphone, and pizza man is called to deliver pizza.",insertCoin);
     }
     else
     {
         NSLog(@"Not enough coins to place call, hungry man is going to starve.");
     }
+    // End IF Else Statement
     
+    // Else If Else Statement
     if (money == YES) {
-        NSLog(@"Pizza man will be making a pizza.");
+        NSLog(@"Pizza man will be leaving to deliver pizza.");
     }
     else if (money == NO) {
         NSLog(@"Pizza man wont be making pizza for hungry man.");
+        return YES;
     }
     else {
         NSLog(@"Pizza man will make pizza for someone with money.");
     }
+    // End Else If Else Statement
     
+    // While Loop w/ Break
+    while (traffic > 30) {
+        // print out the count value
+        NSLog(@"Pizza man is waiting %d\n minuates in traffic.", traffic);
+        // increment count
+        traffic ++;
+        if (traffic > 31)
+        {
+            NSLog(@"Aww shit, I'm late!");
+            break;
+        }
+    }
+    // End While Loop w/ break
     
+    // If Statement
+    if (traffic < 30) {
+        NSLog(@"I'm making great time!");
+    }
+    // End If Statement
+    
+    // And Comparison w/ float answer
+    if (traffic > 30 && isPizzaLate == YES) {
+        float floatanswer = (float) traffic + (float) pizzaLate;
+        NSLog(@"The pizza took %.2f total minuates to deliver. The pizza is FREE!", floatanswer);
+    } else {
+        NSLog(@"Remember pizza dude, stay under %d minuates or its Free...", pizzaNotLate);
+    }
+    // End Comparison w/ float answer
+    
+    // OR comparison
+    if (pizzaLate == NO || money == NO) {
+        NSLog(@"Your NOT getting ANY pizza you bumb!");
+    }
+    // End OR comparison
 
     
    
