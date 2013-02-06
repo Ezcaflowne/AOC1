@@ -24,164 +24,6 @@
     [self.window makeKeyAndVisible];
     
     
-    
-    
-    // casting of variable data types
-    
-    // Example of Casting
-//    int seven = 7;
-//    int two  = 2;
-//    
-//    float floatanswer = (float)seven / (float)two;
-//    
-//    int intanswer = seven / two;
-    
-    // Example of Casting
-    // C x (9/5) + 32 = F
-    // celcius 23.0 fahrenheit = 73.4
-//    float celcius = 23.0f;
-//    
-//    float result = celcius * ((float)9/5) + 32;
-//    
-//    int hello = 0;
-    // End of Casting
-    
-//    NSLog(@"result=%.1f", result);
-    
-    // Conditional Example
-    //  == equals
-    //  != not equal
-    //  < less than
-    //  <= less than or equal to
-    //  > greater than
-    //  >= greater than or equal to
-    //  && and
-    //  || or
-    
-    // if else statement
-//    int temp = 0;
-//    if (temp !=0){
-//        NSLog(@"true");
-//    }
-//    else{
-//        NSLog(@"false");
-//    }
-    // End of if else statement
-    
-    // Example of else if else statement.
-//    int numTires = 2;
-//    
-//    if (numTires >= 4) {
-//        NSLog(@"This is a car.");
-//    }
-//    else if (numTires <= 2) {
-//        NSLog(@"This is a motorcycle.");
-//    }
-//    else {
-//        NSLog(@"I have no idea what kind of vehicale this is.");
-//    }
-    // End else if else statement.
-    // End of Conditionals.
-    
-    // Example of For Loops - Single, Nested and Break
-    
-    // for loop layout
-    // for (init expression; loop_condition; loop expression)
-    // {
-    //      program execution
-    // }
-    
-    // for loop forward
-//    for (int x=0; x < 10; x++)
-//    {
-//        NSLog(@"hello: %d", x);
-//    }
-    // End for loop forward
-    
-    
-    // for loop reverse
-//    for (int y=10; y >= 0; y--)
-//    {
-//        NSLog(@"hello: %d", y);
-//    }
-    // End for loop reverse
-    
-    // for loops with break
-//    
-//    for (int count = 0; count < 10; count++)
-//    {
-//        NSLog(@"count=%d", count);
-//        if (count == 5)
-//        {
-//            break;
-//        }
-//    }
-    // End for loop with break
-    
-    // Example of While Loop
-    
-    // while loop
-//    int count = 0;
-//    
-//    while (count <= 100) {
-//        // print out the count value
-//        NSLog(@"count = %d\n", count);
-//        // increment count
-//        count ++;
-//    }
-    // End While Loop
-    
-    // Example of Do While Loop
-//    
-//    int num = 0;
-//    
-//    do {
-//        NSLog(@"count=%d", num);
-//        num++;
-//    } while (num > 10);
-    // End Do While Loop
-    
-    
-    
-    // Start of Willsons Code
-    // Example of a IF Else statement.
-//    int legs = 4;
-//    
-//    if (legs == 2){
-//        NSLog(@"You must be a human.");
-//    }
-//    else{
-//        NSLog(@"Your some type of animal.");
-//    }
-    // End of If Else statement.
-    
-    // Example of Else If
-//    int legs = 44;
-//    
-//    if (legs == 2){
-//        NSLog(@"You must be a human.");
-//    }
-//    else if (legs == 4){
-//        NSLog(@"You must be a dog.");
-//    }
-//    else {
-//        NSLog(@"You must be some other type of animal.");
-//    }
-    // End of Else If
-    
-    
-//    int people = 2;
-//    
-//    if (people == false){
-//        NSLog(@"There is no one around.");
-//    }
-//    else if (people == true){
-//        NSLog(@"There is someone here.");
-//    }
-//    else {
-//        NSLog(@"What are people?");
-//    }
-    
     ////////////////////////////////////
     // Start of Willson Ayotte's Story//
     ////////////////////////////////////
@@ -260,7 +102,10 @@
         NSLog(@"Damn, not even a tip...!");
     }
     // End OR comparison
-
+    
+    ////////////////////////////////
+    // End Willson Ayotte's Story //
+    ////////////////////////////////
     
    
     return YES;
