@@ -274,6 +274,7 @@
 				9C43D69816C0C7B8008BC6B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

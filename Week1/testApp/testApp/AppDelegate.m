@@ -25,7 +25,114 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //NSMutableDictionary
+    
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] initWithCapacity:10];
+    
+    // setObject add objects to the dictionary
+    [dictionary setObject:@"gozer" forKey:@"keymaster"];
+    
+    // check to see if the dictionary does contain a said object, and then remove that object
+    if ([dictionary objectForKey:@"asdasdf"] != nil) {
+        [dictionary removeObjectForKey:@"keymaster"];
+    }
+    
+    // pulling an object back out of the dictionary
+    NSString *value = [dictionary objectForKey:@"keymaster"];
+    // removeObjectForKey removes just that object
+    [dictionary removeObjectForKey:@"keymaster"];
+    
+    // removeAllObjects removes all objects from the dictionary
+    [dictionary removeAllObjects];  
+    
+    NSLog(@"%@", [dictionary description]);
+    
+    
+    
+    
+    //Container Type
+    
+    NSArray *tempArray = [[NSArray alloc] initWithObjects:@"test1", @"test2", nil];
+    
+    NSMutableArray *mutableArray = [[NSMutableArray alloc] initWithCapacity:10];
+    [mutableArray addObject:@"hello test 1"];
+    [mutableArray addObject:@"secound item"];
+    
+    NSLog(@"%@", [mutableArray description]);
+    
+    for (int i=0; i<[mutableArray count]; i++)
+    
+    
+    
+    NSLog(@"Did enter didFinishLaunchingWithOptions");
+    // One dementional array
+    
+    int arrayInt[5] = {
+        3, 8, 10, 6, 9
+    };
+    
+    for (int i=0; i<5; i++) {
+        NSLog(@"index %d=%d", i, arrayInt[i]);
+    }
+    
+    //Two dementinal array
+    
+    int tictactoe[3][3] = {
+        {0, 0, 0},
+        {1, 1, 1},
+        {2, 2, 2}
+    };
+    
+    for (int y=0; y<3; y++) {
+        
+        for (int x=0; x<3; x++) {
+            NSLog(@"tictactoe at [%d][%d] = %d", x, y, tictactoe[x][y]);
+        }
+    }
+    
+    NSString *lowercaseString = @"awdasdads";
+    NSString *uppercaseString = [lowercaseString uppercaseString];
+    
+    
+    NSString *string = [[NSString alloc] initWithString:@"This is Stored"];
+    
+    NSMutableString *mutableString = [[NSMutableString alloc] initWithString:@"initialString"];
+    
+    [mutableString insertString:@" I live Here Now " atIndex:4];
+    
+    NSLog(mutableString);
+    
+    
+    NSString *strTemp = [[NSString alloc]
+    initWithString:@"Hello"];
+    int numChars = [strTemp length];
+    
+    if (strTemp != nil) {
+        NSLog(@"The memory was allocated.");
+    }
+    
+    
+    
+    int temp = rand();
+    NSLog(@"Temp before change: = %d", temp);
+    NSLog(@"Temp after change:= %d", temp);
 
+//    NSLog(@"hit line %d in file %s in function %s", __LINE__, __FILE__, __PRETTY_FUNCTION__);
+    
     
     ////////////////////////////////////
     // Start of Willson Ayotte's Story//
