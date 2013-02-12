@@ -24,15 +24,18 @@
     [self.window makeKeyAndVisible];
     
     
+    
+
+    
     ////////////////////////////////////
     // Start of Willson Ayotte's Story//
     ////////////////////////////////////
     
     // Change between YES and NO
     bool money = YES;
-    bool isPizzaLate = NO;
+    bool isPizzaLate = YES;
     // Change to Any Number < or > 30
-    int traffic = 20;
+    int traffic = 35;
     // Dont Change Value
     int insertCoin = 1;
     float pizzaLate = 30;
@@ -102,10 +105,7 @@
         NSLog(@"Damn, not even a tip...!");
     }
     // End OR comparison
-    
-    ////////////////////////////////
-    // End Willson Ayotte's Story //
-    ////////////////////////////////
+
     
    
     return YES;
