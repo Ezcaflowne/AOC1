@@ -27,7 +27,7 @@
     
     // added image and added shadow
     // http://nachbaur.com/blog/fun-shadow-effects-using-custom-calayer-shadowpaths
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Perksofbeingwallflower1.jpg"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Perksofbeingwallflower1.png"]];
     imageView.frame = CGRectMake(430, 60, 320, 500);
     imageView.layer.shadowColor = [UIColor blackColor].CGColor;
     imageView.layer.shadowOpacity = 0.7f;

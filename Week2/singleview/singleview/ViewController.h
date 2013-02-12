@@ -11,10 +11,10 @@
 // change ViewController if you want for multiple screens like MainViewControler for Main Screen(Login Screen)
 @interface ViewController : UIViewController
 {
-    //meaningful detailed method names following iOS Conventions
-    //methodName or thisIsAMethodName
+    //Methods for Week 2 Project 2
     UILabel *bookTitle, *authorLabel, *authorName, *publishedLabel, *publishDate, *summaryLabel, *summaryText, *listOfItemsLabel, *listOfItems;
     NSMutableString *mutableArray;
+    //End Methods
 }
 
 @end

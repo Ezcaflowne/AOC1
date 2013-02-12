@@ -18,8 +18,8 @@
 		9CCCCF0816CA234E00723302 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCCCF0716CA234E00723302 /* Default-568h@2x.png */; };
 		9CCCCF0B16CA234E00723302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCCCF0A16CA234E00723302 /* ViewController.m */; };
 		9CCCCF0E16CA234E00723302 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CCCCF0C16CA234E00723302 /* ViewController.xib */; };
-		9CCCCF2416CA3A5800723302 /* Perksofbeingwallflower1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9CCCCF2316CA3A5800723302 /* Perksofbeingwallflower1.jpg */; };
 		9CCCCF2616CA5CCD00723302 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCCCF2516CA5CCD00723302 /* QuartzCore.framework */; };
+		9CCCCF4216CA63BE00723302 /* Perksofbeingwallflower1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCCCF4116CA63BE00723302 /* Perksofbeingwallflower1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,8 @@
 		9CCCCF0916CA234E00723302 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9CCCCF0A16CA234E00723302 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9CCCCF0D16CA234E00723302 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		9CCCCF2316CA3A5800723302 /* Perksofbeingwallflower1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Perksofbeingwallflower1.jpg; path = ../../../../Downloads/Perksofbeingwallflower1.jpg; sourceTree = "<group>"; };
 		9CCCCF2516CA5CCD00723302 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9CCCCF4116CA63BE00723302 /* Perksofbeingwallflower1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Perksofbeingwallflower1.png; path = ../../../../Downloads/Perksofbeingwallflower1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		9CCCCEF716CA234E00723302 /* singleview */ = {
 			isa = PBXGroup;
 			children = (
-				9CCCCF2316CA3A5800723302 /* Perksofbeingwallflower1.jpg */,
+				9CCCCF4116CA63BE00723302 /* Perksofbeingwallflower1.png */,
 				9CCCCF0016CA234E00723302 /* AppDelegate.h */,
 				9CCCCF0116CA234E00723302 /* AppDelegate.m */,
 				9CCCCF0916CA234E00723302 /* ViewController.h */,
@@ -170,7 +170,7 @@
 				9CCCCF0616CA234E00723302 /* Default@2x.png in Resources */,
 				9CCCCF0816CA234E00723302 /* Default-568h@2x.png in Resources */,
 				9CCCCF0E16CA234E00723302 /* ViewController.xib in Resources */,
-				9CCCCF2416CA3A5800723302 /* Perksofbeingwallflower1.jpg in Resources */,
+				9CCCCF4216CA63BE00723302 /* Perksofbeingwallflower1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
