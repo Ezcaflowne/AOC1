@@ -115,16 +115,16 @@
     infoLabel = [[UILabel alloc] initWithFrame:CGRectMake(5.0f, 360.0f, 320.0f, 75.0f)];
     infoLabel.text = @"This application was written by: Willson Ayotte";
     infoLabel.numberOfLines = 3;
-    infoLabel.textColor = [UIColor blackColor];
+    infoLabel.textColor = [UIColor greenColor];
     infoLabel.textAlignment =  NSTextAlignmentLeft;
     [self.view addSubview:infoLabel];
     infoLabel.hidden = YES;
 }
 
 
-/////////////////////////////////
+///////////////////////////////
 // End Willson Ayotte Week 4 //
-/////////////////////////////////
+///////////////////////////////
 
 - (void)didReceiveMemoryWarning
 {
